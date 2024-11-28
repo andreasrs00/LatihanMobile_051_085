@@ -3,6 +3,7 @@ package com.example.latihanmobile_051_085
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.example.latihanmobile_051_085.DatabaseContract.HomeworkColumns.Companion.TABLE_NAME
 
 internal class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     companion object {
