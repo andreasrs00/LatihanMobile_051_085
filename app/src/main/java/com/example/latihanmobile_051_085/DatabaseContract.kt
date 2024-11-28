@@ -5,6 +5,7 @@ import android.provider.BaseColumns
 internal  class DatabaseContract {
     internal class HomeworkColumns : BaseColumns {
         companion object {
+            val _ID: String
             const val TABLE_NAME = "homework"
             const val ID = "_id"
             const val TITLE = "title"
